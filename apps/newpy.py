@@ -1,5 +1,5 @@
 import functions
-import time
+import time#gotta import time to add time to projects
 now= time.strftime("%d,%B,%Y-- %H:%M:%S")
 print(now)
 
