@@ -22,7 +22,7 @@ while True:
         number = int(user_prompt.split()[1])
         if 1<=number<=len(todos):
             todos.pop(number-1)
-            functions.write_todoms( todos,'todoms.txt')
+            functions.write_todoms(todos, 'todoms.txt')
         else:
             print('no such number')
     elif user_prompt.startswith('replace'):
