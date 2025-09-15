@@ -16,10 +16,11 @@ while True:
     print(event)
     print(action)
     match event:
-        case 'add':
+        case 'Add':
             todos=functions.get_todoms()
             new_todos=action['todo'] +'\n'
             todos.append(new_todos)
             functions.write_todoms(todos)
-
+        case sg.WIN_CLOSED:
+            break
 window.close()

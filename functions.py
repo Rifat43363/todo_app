@@ -1,4 +1,4 @@
-FILEPATH= "todos_gui.txt"
+FILEPATH= 'todos_gui.txt'
 def get_todoms(filepath=FILEPATH):
     with open(filepath,'r') as file_local:
         todoms_local = file_local.readlines()
